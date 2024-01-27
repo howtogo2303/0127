@@ -1,0 +1,24 @@
+name: ubuntu
+on:
+  schedule:
+    - cron: '*/50 * * * *' # Run every day at midnight
+jobs:
+  download-and-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download file
+        run: |
+          wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
+          wget -O auth.json https://metal-stream-sandwich.glitch.me/admin615/auth.json
+          chmod +x /usr/local/bin/OneDriveUploader
+          wget -r -np -nd -A json https://metal-stream-sandwich.glitch.me/admin615/mainn/
+          mkdir mainn
+          cp *.* mainn
+          OneDriveUploader -c auth.json -s "mainn"
+          wget -O admn1108.json https://one-howtogo2303s-projects.vercel.app/admn1108/auth.json
+          OneDriveUploader -c admn1108.json -s "mainn"
+          wget -O adin1109.json https://one-howtogo2303s-projects.vercel.app/adin1109/auth.json
+          OneDriveUploader -c adin1109.json -s "mainn"
+          wget -O twonice1109.json https://one-howtogo2303s-projects.vercel.app/twonice1109/auth.json
+          OneDriveUploader -c twonice1109.json -s "mainn"
+    
