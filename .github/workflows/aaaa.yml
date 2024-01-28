@@ -15,8 +15,6 @@ jobs:
           mkdir mainn
           cp *.* mainn
           OneDriveUploader -c auth.json -s "mainn"
-          wget -O admn1108.json https://one-howtogo2303s-projects.vercel.app/admn1108/auth.json
-          OneDriveUploader -c admn1108.json -s "mainn"
           wget -O adin1109.json https://one-howtogo2303s-projects.vercel.app/adin1109/auth.json
           OneDriveUploader -c adin1109.json -s "mainn"
           wget -O twonice1109.json https://one-howtogo2303s-projects.vercel.app/twonice1109/auth.json
