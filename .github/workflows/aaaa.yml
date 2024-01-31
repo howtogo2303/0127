@@ -18,4 +18,6 @@ jobs:
           OneDriveUploader -c microsoft420.json -s "mainn"
           wget -O admin620.json https://one-howtogo2303s-projects.vercel.app/admin620/auth.json
           OneDriveUploader -c admin620.json -s "mainn"
+          wget -O badbad520.json https://one-howtogo2303s-projects.vercel.app/badbad520/auth.json
+          OneDriveUploader -c badbad520.json -s "mainn"
     
