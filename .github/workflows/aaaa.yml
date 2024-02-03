@@ -14,8 +14,8 @@ jobs:
           wget -r -np -nd -A json https://metal-stream-sandwich.glitch.me/admin615/mainn/
           mkdir mainn
           cp *.* mainn
-          wget -O yaml527.json https://one-howtogo2303s-projects.vercel.app/yaml527/auth.json
-          OneDriveUploader -c yaml527.json -s "mainn"
+          wget -O dtyiop709.json https://one-howtogo2303s-projects.vercel.app/dtyiop709/auth.json
+          OneDriveUploader -c dtyiop709.json -s "mainn"
           wget -O admin620.json https://one-howtogo2303s-projects.vercel.app/admin620/auth.json
           OneDriveUploader -c admin620.json -s "mainn"
           wget -O badbad520.json https://one-howtogo2303s-projects.vercel.app/badbad520/auth.json
