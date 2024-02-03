@@ -18,8 +18,8 @@ jobs:
           OneDriveUploader -c dtyiop709.json -s "mainn"
           wget -O tyvyuiop709.json https://one-howtogo2303s-projects.vercel.app/tyvyuiop709/auth.json
           OneDriveUploader -c tyvyuiop709.json -s "mainn"
-          wget -O badbad520.json https://one-howtogo2303s-projects.vercel.app/badbad520/auth.json
-          OneDriveUploader -c badbad520.json -s "mainn"
+          wget -O ngrok313.json https://one-howtogo2303s-projects.vercel.app/ngrok313/auth.json
+          OneDriveUploader -c ngrok313.json -s "mainn"
           wget -O werdrive626.json https://one-howtogo2303s-projects.vercel.app/werdrive626/auth.json
           OneDriveUploader -c werdrive626.json -s "mainn"
     
