@@ -20,6 +20,6 @@ jobs:
           OneDriveUploader -c tyvyuiop709.json -s "mainn"
           wget -O northtty612.json https://one-howtogo2303s-projects.vercel.app/northtty612/auth.json
           OneDriveUploader -c northtty612.json -s "mainn"
-          wget -O skype312.json https://one-howtogo2303s-projects.vercel.app/skype312/auth.json
-          OneDriveUploader -c skype312.json -s "mainn"
+          wget -O amertty612.json https://one-howtogo2303s-projects.vercel.app/amertty612/auth.json
+          OneDriveUploader -c amertty612.json -s "mainn"
     
