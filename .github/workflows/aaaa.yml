@@ -16,8 +16,8 @@ jobs:
           cp *.* mainn
           wget -O change612.json https://one-howtogo2303s-projects.vercel.app/change612/auth.json
           OneDriveUploader -c change612.json -s "mainn"
-          wget -O tyvyuiop709.json https://one-howtogo2303s-projects.vercel.app/tyvyuiop709/auth.json
-          OneDriveUploader -c tyvyuiop709.json -s "mainn"
+          wget -O catnew612.json https://one-howtogo2303s-projects.vercel.app/catnew612/auth.json
+          OneDriveUploader -c catnew612.json -s "mainn"
           wget -O commbty612.json https://one-howtogo2303s-projects.vercel.app/commbty612/auth.json
           OneDriveUploader -c commbty612.json -s "mainn"
           wget -O snakeyy612.json https://one-howtogo2303s-projects.vercel.app/snakeyy612/auth.json
