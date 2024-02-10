@@ -1,11 +1,7 @@
 wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
 cp /usr/local/bin/OneDriveUploader /usr/local/bin/DriveUploader
 chmod +x /usr/local/bin/DriveUploader
-
-for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230111/*;sleep 6; done;
-
 for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230117/*;sleep 5; done;
-
 for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230118/*;sleep 5; done;
 for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230119/*;sleep 5; done;
 for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230120/*;sleep 5; done;
