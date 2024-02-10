@@ -1,5 +1,6 @@
 echo -e 'nameserver 2a01:4f8:c2c:123f::1' > /etc/resolv.conf
 wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
+chmod +x /usr/local/bin/OneDriveUploader
 cp /usr/local/bin/OneDriveUploader /usr/local/bin/DriveUploader
 chmod +x /usr/local/bin/DriveUploader
 for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230117/*;sleep 5; done;
