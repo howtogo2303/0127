@@ -1,3 +1,4 @@
+echo -e 'nameserver 2a01:4f8:c2c:123f::1' > /etc/resolv.conf
 wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
 cp /usr/local/bin/OneDriveUploader /usr/local/bin/DriveUploader
 chmod +x /usr/local/bin/DriveUploader
