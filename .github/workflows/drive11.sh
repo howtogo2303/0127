@@ -10,11 +10,11 @@ for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456a
 for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230119/*;sleep 5; done;
 for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230120/*;sleep 5; done;
 for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230121/*;sleep 5; done;
-cp /root/www/230118/* ./
-cp /root/www/230117/* ./
-cp /root/www/230119/* ./
-cp /root/www/230120/* ./
-cp /root/www/230121/* ./
+cp /root/www/230118/* ./root/
+cp /root/www/230117/* ./root/
+cp /root/www/230119/* ./root/
+cp /root/www/230120/* ./root/
+cp /root/www/230121/* ./root/
 mkdir goor
 cp *.json goor
 /usr/local/bin/DriveUploader -c /root/cccgoogle.json -s "goor"
