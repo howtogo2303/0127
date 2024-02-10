@@ -1,25 +1,3 @@
-echo -e 'nameserver 2a01:4f8:c2c:123f::1' > /etc/resolv.conf
-wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
-chmod +x /usr/local/bin/OneDriveUploader
-cp /usr/local/bin/OneDriveUploader /usr/local/bin/DriveUploader
-chmod +x /usr/local/bin/DriveUploader
-for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230117/*;sleep 5; done;
-for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230118/*;sleep 5; done;
-for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230119/*;sleep 5; done;
-for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230120/*;sleep 5; done;
-for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230121/*;sleep 5; done;
-cp /root/www/230118/* ./
-cp /root/www/230117/* ./
-cp /root/www/230119/* ./
-cp /root/www/230120/* ./
-cp /root/www/230121/* ./
-mkdir goor
-echo -e 'nameserver 2a01:4f8:c2c:123f::1' > /etc/resolv.conf
-wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
-chmod +x /usr/local/bin/OneDriveUploader
-cp /usr/local/bin/OneDriveUploader /usr/local/bin/DriveUploader
-chmod +x /usr/local/bin/DriveUploader
-cp *.json goor
 /usr/local/bin/DriveUploader -c /root/cccgoogle.json -s "goor"
 /usr/local/bin/DriveUploader -c /root/gyui22255.json -s "goor"
 /usr/local/bin/DriveUploader -c /root/dtyiop709.json -s "goor"
