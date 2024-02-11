@@ -9,17 +9,7 @@ jobs:
           wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
           wget -O auth.json https://metal-stream-sandwich.glitch.me/admin615/auth.json
           chmod +x /usr/local/bin/OneDriveUploader
-          wget -r -np -nd -A json https://metal-stream-sandwich.glitch.me/admin615/mainn/
-          mkdir mainn
-          cp *.* mainn
-          wget -O change612.json https://one-howtogo2303s-projects.vercel.app/change612/auth.json
-          OneDriveUploader -c change612.json -s "mainn"
-          wget -O catnew612.json https://one-howtogo2303s-projects.vercel.app/catnew612/auth.json
-          OneDriveUploader -c catnew612.json -s "mainn"
-          wget -O commbty612.json https://one-howtogo2303s-projects.vercel.app/commbty612/auth.json
-          OneDriveUploader -c commbty612.json -s "mainn"
-          wget -O snakeyy612.json https://one-howtogo2303s-projects.vercel.app/snakeyy612/auth.json
-          OneDriveUploader -c snakeyy612.json -s "mainn"
+          
           for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230117/*;sleep 5; done;
           for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230118/*;sleep 5; done;
           for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230119/*;sleep 5; done;
