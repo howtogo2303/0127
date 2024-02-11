@@ -9,7 +9,6 @@ jobs:
           wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
           wget -O auth.json https://metal-stream-sandwich.glitch.me/admin615/auth.json
           chmod +x /usr/local/bin/OneDriveUploader
-          cd /home/user/downloads
           for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230117/*;sleep 5; done;
           for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230118/*;sleep 5; done;
           for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230119/*;sleep 5; done;
