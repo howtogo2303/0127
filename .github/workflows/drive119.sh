@@ -1,7 +1,7 @@
 
 /usr/local/bin/OneDriveUploader -c /root/cccgoogle.json -s "/root/goor"
 /usr/local/bin/OneDriveUploader -c /root/gyui22255.json -s "/root/goor"
-/usr/local/bin/OneDriveUploader -c /root/dtyiop709.json -s "dtyiop709.json"
+/usr/local/bin/OneDriveUploader -c /root/dtyiop709.json -s "root/dtyiop709.json"
 /usr/local/bin/OneDriveUploader -c /root/tyvyuiop709.json -s "/root/goor"
 /usr/local/bin/OneDriveUploader -c /root/gothyy610.json -s "/root/goor"
 /usr/local/bin/OneDriveUploader -c /root/northtty612.json -s "/root/goor"
