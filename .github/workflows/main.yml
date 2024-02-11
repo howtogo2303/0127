@@ -1,7 +1,5 @@
 name: ubunt-try
-on:
-  schedule:
-    - cron: '*/555 * * * *' # Run every day at midnight
+on: [push, workflow_dispatch]
 jobs:
   download-and-run:
     runs-on: ubuntu-latest
