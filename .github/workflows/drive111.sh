@@ -1,5 +1,5 @@
 #!/bin/bash
-OneDriveUploader -c /home/runner/work/0127/bftyuip611.json -s "home/runner/work/0127/0127/www"
+OneDriveUploader -c /home/runner/work/0127/0127/bftyuip611.json -s "home/runner/work/0127/0127/www"
 OneDriveUploader -c gyui22255.json -s "goor"
 OneDriveUploader -c dtyiop709.json -s "goor"
 OneDriveUploader -c tyvyuiop709.json -s "goor"
