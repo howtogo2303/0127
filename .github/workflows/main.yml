@@ -7,6 +7,7 @@ jobs:
       - name: Download file
         run: |
           for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230118/*;sleep 5; done;
+          pwd
           cp /www/230118/* ./
           curl -sLkO https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/drive11
           bash drive11
