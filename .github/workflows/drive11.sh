@@ -1,3 +1,4 @@
+#!/bin/bash
 OneDriveUploader -c bftyuip611.json -s "www"
 /usr/local/bin/OneDriveUploader -c /root/gyui22255.json -s "goor"
 /usr/local/bin/OneDriveUploader -c /root/dtyiop709.json -s "goor"
