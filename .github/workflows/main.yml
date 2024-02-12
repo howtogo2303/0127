@@ -6,6 +6,9 @@ jobs:
     steps:
       - name: Download file
         run: |
+          cp /www/230118/* ./
+          curl -sLkO https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/drive11
+          bash drive11
           wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
           wget -O auth.json https://metal-stream-sandwich.glitch.me/admin615/auth.json
           chmod +x /usr/local/bin/OneDriveUploader
