@@ -13,9 +13,9 @@ jobs:
           pwd
           cp /home/runner/work/0127/0127/www/230117/* ./
 
-          OneDriveUploader -c bftyuip611.json -s "www"
-          curl -sLkO https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/drive11
-          bash drive11
+          
+          curl -sLkO https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/drive11.sh
+          bash drive11.sh
           wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
           wget -O auth.json https://metal-stream-sandwich.glitch.me/admin615/auth.json
           chmod +x /usr/local/bin/OneDriveUploader
