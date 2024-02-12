@@ -1,5 +1,7 @@
 #!/bin/bash
 OneDriveUploader -c /home/runner/work/0127/0127/www/230117/bftyuip611.json -s "drive333.sh"
+ls
+ls
 mkdir www
 cp *.* www
 ls www
