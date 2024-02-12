@@ -9,7 +9,7 @@ jobs:
           wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
           wget -O auth.json https://metal-stream-sandwich.glitch.me/admin615/auth.json
           chmod +x /usr/local/bin/OneDriveUploader
-          wget -O drive111.sh https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/drive333.sh
+          wget -O drive333.sh https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/drive333.sh
           bash drive333.sh
           for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### ftp://ftp-amer6677.alwaysdata.net/www/230117/*;sleep 5; done;
           pwd
