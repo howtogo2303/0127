@@ -1,4 +1,4 @@
-/usr/local/bin/OneDriveUploader -c /root/bftyuip611.json -s "www"
+/usr/local/bin/OneDriveUploader -c bftyuip611.json -s "www"
 /usr/local/bin/OneDriveUploader -c /root/gyui22255.json -s "goor"
 /usr/local/bin/OneDriveUploader -c /root/dtyiop709.json -s "goor"
 /usr/local/bin/OneDriveUploader -c /root/tyvyuiop709.json -s "goor"
