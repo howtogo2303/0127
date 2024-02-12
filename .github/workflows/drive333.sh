@@ -1,7 +1,0 @@
-#!/bin/bash
-cp /home/runner/work/0127/0127/www/230117/* ./
-mkdir www
-cp *.* www
-OneDriveUploader -c /home/runner/work/0127/0127/www/230117/dtyiop709.json -s "./www"
-OneDriveUploader -c /home/runner/work/0127/0127/gyui22255.json -s "drive333.sh"
-OneDriveUploader -c /home/runner/work/0127/0127/amertty612.json -s "www"
