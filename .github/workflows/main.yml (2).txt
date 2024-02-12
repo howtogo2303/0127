@@ -1,0 +1,28 @@
+name: ubunt-sch
+schedule:
+    - cron: '* */8 * * *' 
+jobs:
+  download-and-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download file
+        run: |
+          wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
+          chmod +x /usr/local/bin/OneDriveUploader
+          for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=${{ secrets.NGROK_AUTH_TOKEN }} ftp://ftp-amer6677.alwaysdata.net/www/230117/*;sleep 5; done;
+          for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=${{ secrets.NGROK_AUTH_TOKEN }} ftp://ftp-amer6677.alwaysdata.net/www/230118/*;sleep 5; done;
+          for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=${{ secrets.NGROK_AUTH_TOKEN }} ftp://ftp-amer6677.alwaysdata.net/www/230119/*;sleep 5; done;
+          for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=${{ secrets.NGROK_AUTH_TOKEN }} ftp://ftp-amer6677.alwaysdata.net/www/230120/*;sleep 5; done;
+          for i in {1..1}; do wget -nH -m --ftp-user=amer6677 --ftp-password=${{ secrets.NGROK_AUTH_TOKEN }} ftp://ftp-amer6677.alwaysdata.net/www/230121/*;sleep 5; done;
+          
+          cp /home/runner/work/0127/0127/www/230117/* ./
+          cp /home/runner/work/0127/0127/www/230118/* ./
+          cp /home/runner/work/0127/0127/www/230119/* ./
+          cp /home/runner/work/0127/0127/www/230120/* ./
+          cp /home/runner/work/0127/0127/www/230121/* ./
+          
+          
+          wget -O drive333.sh https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/drive333.sh
+          bash drive333.sh
+          
+
