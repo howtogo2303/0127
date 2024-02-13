@@ -15,7 +15,7 @@ jobs:
           wget -nH -m --ftp-user=amer6677 --ftp-password=${{ secrets.NGROK_AUTH_TOKEN }} "ftp://ftp-amer6677.alwaysdata.net/www/$file/*"
           sleep 5
           done
-          cp "/home/runner/work/0127/0127/www/$file/*" ./
+          cp www/$file/* ./
           done
 
           
