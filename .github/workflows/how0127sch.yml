@@ -1,7 +1,7 @@
 name: 0127sch
 on:
   schedule:
-    - cron: '*/10 * * * *' # Run every day at midnight
+    - cron: '*/120 * * * *' # Run every day at midnight
 jobs:
   download-and-run:
     runs-on: ubuntu-latest
