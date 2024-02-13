@@ -1,4 +1,4 @@
-name: ubunt-
+name: ubunt-sin
 on: [push, workflow_dispatch]
 jobs:
   download-and-run:
