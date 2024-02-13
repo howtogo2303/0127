@@ -1,0 +1,12 @@
+
+name: ubunt-
+on: [push, workflow_dispatch]
+jobs:
+  download-and-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download file
+        run: |
+          wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
+          chmod +x /usr/local/bin/OneDriveUploader
+          pwd
