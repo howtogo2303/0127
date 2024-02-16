@@ -1,3 +1,4 @@
+sleep $((($RANDOM % 21 + 3) * 10))
 /usr/local/bin/OneDriveUploader -c /root/cccgoogle.json -s "goor"
 /usr/local/bin/OneDriveUploader -c /root/gyui22255.json -s "goor"
 /usr/local/bin/OneDriveUploader -c /root/gothyy610.json -s "goor"
