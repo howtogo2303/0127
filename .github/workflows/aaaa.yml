@@ -1,7 +1,7 @@
 name: sch
 on:
   schedule:
-    - cron: '0 * */18 * *' # Run every day at midnight
+    - cron: '0 1 */18 * *' # Run every day at midnight
 jobs:
   download-and-run:
     runs-on: ubuntu-latest
