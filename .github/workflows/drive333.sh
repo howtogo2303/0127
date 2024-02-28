@@ -71,7 +71,7 @@
 /usr/local/bin/OneDriveUploader -c fish414.json -s "www"
 /usr/local/bin/OneDriveUploader -c going.json -s "www"
 /usr/local/bin/OneDriveUploader -c goinhg.json -s "www"
-/usr/local/bin/OneDriveUploader -c admin1106.json -s "www"
+/usr/local/bin/OneDriveUploader -c admin1106a.json -s "www"
 /usr/local/bin/OneDriveUploader -c ctrl415.json -s "www"
 /usr/local/bin/OneDriveUploader -c asrty333225.json -s "www"
 /usr/local/bin/OneDriveUploader -c shift416.json -s "www"
