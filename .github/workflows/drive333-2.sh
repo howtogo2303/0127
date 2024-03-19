@@ -240,7 +240,7 @@
 /usr/local/bin/OneDriveUploader -c goinhg.json -s "www"
 /usr/local/bin/OneDriveUploader -c asrty333225.json -s "www"
 /usr/local/bin/OneDriveUploader -c going.json -s "www"
-/usr/local/bin/OneDriveUploader -c admin1106.json -s "www"
+/usr/local/bin/OneDriveUploader -c admin11066.json -s "www"
 /usr/local/bin/OneDriveUploader -c ctrl415.json -s "www"
 /usr/local/bin/OneDriveUploader -c admin906.json -s "www"
 /usr/local/bin/OneDriveUploader -c wabnt1108.json -s "www"
