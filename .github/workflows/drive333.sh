@@ -22,7 +22,7 @@
 /usr/local/bin/OneDriveUploader -c sevenyi701.json -s "www"
 /usr/local/bin/OneDriveUploader -c gototokk702.json -s "www"
 /usr/local/bin/OneDriveUploader -c bing236699.json -s "www"
-/usr/local/bin/OneDriveUploader -c hong331.json -s "www"
+/usr/local/bin/OneDriveUploader -c ying603.json -s "www"
 /usr/local/bin/OneDriveUploader -c ptr230230.json -s "www"
 /usr/local/bin/OneDriveUploader -c altone602.json -s "www"
 /usr/local/bin/OneDriveUploader -c smalltt602.json -s "www"
