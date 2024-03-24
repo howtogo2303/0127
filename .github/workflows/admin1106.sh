@@ -21,6 +21,13 @@ wget -nH -m --ftp-user=gertanyioptty --ftp-password=gtyy6677Aa##% ftp://ftp-gert
 cd ..
 cd ..
 ls
+cd www
+mkdir cnzj
+cd cnzj
+wget -nH -m --ftp-user=cnzj1688 --ftp-password=123123123aA@@@ ftp://ftp-cnzj1688.alwaysdata.net/www/*
+cd ..
+cd ..
+ls
 /usr/local/bin/DriveUploader -c admin1106.json -s "www"
 sleep 10
 rm -rf www
