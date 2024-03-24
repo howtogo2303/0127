@@ -1,33 +1,39 @@
-wget -nH -m --ftp-user=baidu --ftp-password=123123123aA@@@ ftp://ftp-baidu.alwaysdata.net/www/*
-files=("230117" "230118" "230119" "230120" "230121")
-for file in "${files[@]}"; do
-for i in {1..1}; do
-wget -nH -m --ftp-user=amer6677 --ftp-password=123456123456aQ### "ftp://ftp-amer6677.alwaysdata.net/www/$file/*"
-sleep 5
+#!/bin/bash
+
+# Define FTP server addresses and credentials
+ftp_servers=(
+    "ftp://ftp-baidu.alwaysdata.net/www/"
+    "ftp://ftp-amer6677.alwaysdata.net/www/"
+    "ftp://ftp-hyiopybby12558.alwaysdata.net/www/"
+    "ftp://ftp-gertanyioptty.alwaysdata.net/www/"
+    "ftp://ftp-cnzj1688.alwaysdata.net/www/"
+)
+ftp_users=(
+    "baidu"
+    "amer6677"
+    "hyiopybby12558"
+    "gertanyioptty"
+    "cnzj1688"
+)
+ftp_passwords=(
+    "123123123aA@@@"
+    "123456123456aQ###"
+    "ggghhh6666A##{"
+    "gtyy6677Aa##%"
+    "123123123aA@@@"
+)
+
+# Define directories to create and download into
+directories=("baidu" "amer" "add" "show" "cnzj")
+
+# Download files from FTP servers
+for ((i=0; i<${#ftp_servers[@]}; i++)); do
+    mkdir -p www/${directories[i]}
+    wget -nH -m --ftp-user=${ftp_users[i]} --ftp-password=${ftp_passwords[i]} ${ftp_servers[i]}* -P www/${directories[i]}
 done
-cp www/$file/* ./
-done
-cd www
-mkdir add
-cd add
-wget -nH -m --ftp-user=hyiopybby12558 --ftp-password=ggghhh6666A##{ ftp://ftp-hyiopybby12558.alwaysdata.net/www/*
-cd ..
-cd ..
-ls
-cd www
-mkdir show
-cd show
-wget -nH -m --ftp-user=gertanyioptty --ftp-password=gtyy6677Aa##% ftp://ftp-gertanyioptty.alwaysdata.net/www/*
-cd ..
-cd ..
-ls
-cd www
-mkdir cnzj
-cd cnzj
-wget -nH -m --ftp-user=cnzj1688 --ftp-password=123123123aA@@@ ftp://ftp-cnzj1688.alwaysdata.net/www/*
-cd ..
-cd ..
-ls
-/usr/local/bin/DriveUploader -c admin1106.json -s "www"
-sleep 10
+
+# Upload contents of www directory to Google Drive
+/usr/local/bin/DriveUploader -c www/amer/www/230117/admin1106.json -s "www"
+
+# Remove www directory
 rm -rf www
